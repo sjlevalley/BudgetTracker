@@ -144,6 +144,9 @@ function sendTransaction(isAdding) {
     });
 }
 
+
+
+
 document.querySelector('#add-btn').onclick = function () {
   sendTransaction(true);
 };
